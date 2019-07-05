@@ -4,7 +4,7 @@ class Teacher < User
 
 
   def teach
-    KNOWLEDGE.sample(2)
+    KNOWLEDGE.sample
   end
 
 end
